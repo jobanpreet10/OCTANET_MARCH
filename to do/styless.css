@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(mustard.avif);
+    background-size:133%;
+    background-position: center;
+}
+header{
+    background: transparent;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+header .container{
+    height: 10vh;
+    width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 35px;
+    height: 55px;
+    gap: 14px;
+}
+.logo p{
+    font-weight: 500;
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor:default;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 14px;
+}
+li{
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+.main{
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+}
+.main img{
+    display: block;
+    margin: auto;
+    height: 100%;
+    filter: drop-shadow(30px 20px 40px rgba(234, 228, 228, 0.385));
+}
+.main img{
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+}
+.content .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    margin: auto;
+    height: 100%;
+}
+.todo {
+    display: flex;
+    padding: 14px;
+    cursor: url(quill.png) 6 19, auto;
+}
+
+.todo_value{
+    cursor: inherit;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    flex-grow: 1;
+    border-bottom: 2px solid brown;
+
+}
+.todo_checkbox{
+    cursor:inherit;
+}
+.todo:has(.todo_checkbox:checked){
+    color: rgba(107, 200, 93, 0.758);
+    /* background: rgba(58, 44, 111, 0.31); */
+    text-decoration: line-through;
+
+}

@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 95vh;
+    background-color: rgb(25, 25, 80);
+}
+/* .top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.267);
+} */
+.top{
+    display: flex;
+    max-height: 80vh;
+    /* background-color: red; */
+    width:100%;
+    justify-content: space-between;
+    /* padding: 10px; */
+}
+.left .up .h1{
+    border: 20px rgba(59, 59, 126, 0.76);
+    border-radius: 15px;
+}
+.left {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: none;
+}
+
+    
+    
+
+.up{
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    background-color: #8ad0d9db;
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+    border: 2px solid balck;
+    font-size: 20px;
+    color: #0d0c0cd7;
+    padding: 10px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 10vh;
+    position: absolute;
+    color: rgb(18, 14, 14);
+    bottom: 5%;
+}
+.bottom{
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    background-color: rgba(115, 189, 199, 0.912);
+    min-height: 40vh;
+    font-size: 20px;
+    border: 2px solid balck;
+    border-radius: 15px;
+    color: #131010e2;
+    padding: 10px;
+}
+.right{
+   margin: 30px 6px 0 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    min-height: 83vh;
+     background-image: url(tim.jpg);
+     background-size: cover;
+     background-position: center;
+     width: 50%;
+     border: 2px solid balck;
+     padding: 10px;
+     position: relative;
+     font-size: 25px;
+
+}
+.right .overlay .p{
+    font-size: 15px;
+    padding: 10px;
+}   
+.right .box {
+        width: 200px;
+        height: 50px;
+        background-color: #f4f3f3;
+        border: 1px solid #1b0202;
+        border-radius: 220px;
+        padding: 4px;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+.t{
+    text-align: center;
+    font-size: 30px;
+}
+.below{
+    background-color: rgb(25, 25, 80);
+    color: #faf5f5;
+    justify-content: space-between;
+    min-height: 5vh;
+    border: 2px solid black;
+    padding: 10px;
+}
+.below .overlay{
+    justify-content: left;
+    display: flex;
+    position: relative;
+    font-size: 20px;
+}
+.Term{
+    width: 25%;
+}
+.pri{
+    width: 25%;
+}
+.Con{
+    width: 25%;
+}
+.fol{
+    width:25%;
+}
+.icons{
+    font-size: 20px;
+    padding: 5px;
+    justify-content:space-between;
+}
